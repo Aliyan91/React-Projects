@@ -7,8 +7,9 @@ export default function Headerbuttons() {
     const [selected, setselected] = useState("Template");
 
     return (
-        <div className="container d-flex gap-2 justify-content-center py-5">
+        <div className="container d-flex gap-2 justify-content-center pt-5">
             <div className="responsive">
+                
                 <button className={`button2 rounded-pill px-3 m-2 ${selected === 'Template' && "selected"}`} onClick={() => setselected("Template")}>All Templates</button>
                 <button className={`button2 rounded-pill px-3  m-2 ${selected === 'Education' && "selected"}`} type="button" onClick={() => setselected("Education")}>Education</button>
                 <button className={`button2 rounded-pill px-3  m-2 ${selected === 'Support' && "selected"}`} type="button" onClick={() => setselected("Support")}>Support</button>
