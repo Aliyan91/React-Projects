@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { FcAutomatic } from "react-icons/fc";
-import "./Card.css";
+import "./Index.css";
 
 export default function Post({post}) {
 

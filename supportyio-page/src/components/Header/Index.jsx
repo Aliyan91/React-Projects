@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./header.css";
+import "./Index.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 

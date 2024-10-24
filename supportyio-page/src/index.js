@@ -4,8 +4,8 @@ import './index.css';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import List from './components/Cardlist';
-import Blankpage from './components/Blank';
+import List from './components/Card/IndexC';
+import Blankpage from './components/blank/index';
 
 const router=createBrowserRouter([
   {path:"/",element:<App/>,children:[

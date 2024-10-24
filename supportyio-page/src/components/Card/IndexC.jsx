@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Post from "./Card";
+import Post from "./Index";
 import { useContext } from "react";
-import { Services } from "../data/data";
+import { Services } from "../../data/data";
 
 export default function List() {
 
